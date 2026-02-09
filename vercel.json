@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build -- --configuration production",
+  "outputDirectory": "dist/hcl2/browser",
+  "framework": "angular",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
