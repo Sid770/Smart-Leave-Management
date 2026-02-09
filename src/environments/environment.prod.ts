@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://your-api-name.azurewebsites.net/api'  // Replace with your Azure App Service URL
+  apiUrl: 'https://leave-management-hjddeza2ctfjbyhy.centralindia-01.azurewebsites.net/api'
 };

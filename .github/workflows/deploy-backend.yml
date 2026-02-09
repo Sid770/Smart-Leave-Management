@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: 'your-api-name'  # Replace with your Azure App Service name
+  AZURE_WEBAPP_NAME: 'leave-management-hjddeza2ctfjbyhy'
   AZURE_WEBAPP_PACKAGE_PATH: './LeaveManagementAPI'
   DOTNET_VERSION: '10.0.x'
 
