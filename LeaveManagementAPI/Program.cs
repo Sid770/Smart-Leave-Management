@@ -7,20 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
-    {
-        Title = "Leave Management API",
-        Version = "v1",
-        Description = "Smart Leave Management System API for managing employee leave requests",
-        Contact = new Microsoft.OpenApi.Models.OpenApiContact
-        {
-            Name = "Leave Management Team",
-            Email = "support@leavemanagement.com"
-        }
-    });
-});
+builder.Services.AddSwaggerGen();
 
 // Add CORS - Allow all origins for Azure deployment
 builder.Services.AddCors(options =>
